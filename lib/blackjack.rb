@@ -46,6 +46,7 @@ def hit?(a_card)
     a_card
   else
     invalid_command
+  end
     
   # code hit? here
 end
