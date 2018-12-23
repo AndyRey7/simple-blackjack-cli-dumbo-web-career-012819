@@ -28,11 +28,12 @@ def end_game(lost)
   puts "Sorry, you hit #{lost}. Thanks for playing!"
 end
 
-def initial_round(sum)
+def initial_round
   # code #initial_round here
-  deal_card
-  deal_card
-  display_card_total
+  first_card = deal_card
+  second_card = deal_card
+  total = first_card + second_card
+  display_card_total(total)
   puts 
 end
 
