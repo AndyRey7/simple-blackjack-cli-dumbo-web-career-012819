@@ -37,10 +37,12 @@ def initial_round
   return num_of_cards 
 end
 
-def hit?(a_number)
+def hit?(a_card)
   prompt_user
   gamble = get_user_input
   if gamble == 'h'
+    a_card += deal_card
+  elsif gamble == 's'
     
     
   # code hit? here
