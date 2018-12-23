@@ -42,6 +42,7 @@ def hit?(a_number)
   gamble = get_user_input
   if gamble == 'h'
     
+    
   # code hit? here
 end
 
