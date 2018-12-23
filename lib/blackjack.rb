@@ -40,7 +40,7 @@ end
 def hit?(a_number)
   prompt_user
   gamble = get_user_input
-  if gamble == 's'
+  if gamble == 'h'
     
   # code hit? here
 end
