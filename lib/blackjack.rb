@@ -37,7 +37,7 @@ def initial_round
   return num_of_cards 
 end
 
-def hit?
+def hit?(a_number)
   # code hit? here
 end
 
