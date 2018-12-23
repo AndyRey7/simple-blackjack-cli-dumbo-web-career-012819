@@ -13,8 +13,8 @@ def display_card_total(num_of_cards)
   puts "Your cards add up to #{num_of_cards}"
 end
 
-def prompt_user(stay_or_hit)
-  
+def prompt_user
+  puts
   # code #prompt_user here
 end
 
