@@ -65,7 +65,6 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  prompt_user
+  total_cards = initial_round
 end
     
