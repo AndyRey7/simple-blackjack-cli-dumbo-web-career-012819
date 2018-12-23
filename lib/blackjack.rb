@@ -43,7 +43,9 @@ def hit?(a_card)
   if gamble == 'h'
     a_card += deal_card
   elsif gamble == 's'
-    
+    a_card
+  else
+    invalid_command
     
   # code hit? here
 end
