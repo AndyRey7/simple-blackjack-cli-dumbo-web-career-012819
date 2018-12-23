@@ -14,7 +14,7 @@ def display_card_total(num_of_cards)
 end
 
 def prompt_user
-  puts
+  puts "Type 'h' to hit or 's' to stay"
   # code #prompt_user here
 end
 
