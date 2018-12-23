@@ -1,5 +1,6 @@
 def welcome
-  # code #welcome here
+  # code #welcome helper_method
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
