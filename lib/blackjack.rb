@@ -38,7 +38,9 @@ def initial_round
 end
 
 def hit?(a_number)
-  
+  prompt_user
+  get_user_input
+  if 
   # code hit? here
 end
 
