@@ -13,15 +13,17 @@ def display_card_total(num_of_cards)
   puts "Your cards add up to #{num_of_cards}"
 end
 
-def prompt_user
+def prompt_user(stay_or_hit)
+  
   # code #prompt_user here
 end
 
 def get_user_input
   # code #get_user_input here
+  gets.chomp
 end
 
-def end_game
+def end_game(sorry)
   # code #end_game here
 end
 
